@@ -1,0 +1,70 @@
+body{
+    position: absolute;
+    background-color: #2672F5;
+    top: 15%;
+    left: 35%;
+}
+.container{
+    font-family: Poppins;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: baseline;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px black;
+    width: 300px;
+    padding: 20px;
+}
+.result{
+    margin-top: 20px;
+    font-family: Poppins;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px black;
+    width: 300px;
+    padding: 20px;
+}
+.container .birth-date{
+    width: 280px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;   
+    outline: none;
+    border: black 1px solid;
+    font-family: Poppins;
+}
+.container .btn-1{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2672F5;
+    color: white;   
+    font-family: Poppins;
+}
+.result .btn-2 {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2672F5;
+    color: white;
+    font-family: Poppins;
+}
+.result p{
+    width: 280px;
+    height: 40px;
+    border-radius: 10px;
+    border: #2672F5 1px solid;
+    color: white;   
+    font-family: Poppins;
+    text-align: center;
+    padding: 10px;
+}
